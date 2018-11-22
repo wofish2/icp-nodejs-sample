@@ -1,7 +1,7 @@
 #!groovy
 
-@Library('MicroserviceBuilder') _
-microserviceBuilderPipeline {
+@Library('MicroservicePipeline') _
+microservicePipeline {
   image = 'ibm-nodejs-sample'
   CHART_FOLDER="chart/ibm-nodejs-sample"
 }
